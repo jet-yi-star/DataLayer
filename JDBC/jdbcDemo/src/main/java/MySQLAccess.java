@@ -9,6 +9,7 @@ public class MySQLAccess {
         ResultSet resultSet = null;
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
+            //String url = "jdbc:mysql://localhost:3306/mybatis?useUnicode=true&useSSL=true";
             connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/mybatis",
                     "root","123456");
             statement = connection.createStatement();
