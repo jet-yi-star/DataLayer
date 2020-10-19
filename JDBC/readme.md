@@ -8,4 +8,5 @@ Sample Code about how to use JDBC
 	4. create the statement/prepare statement
 	5. execute the query
 	6. process result
-  7. close resultest, statement, connedction
+	7. close resultset, statement, connection
+
