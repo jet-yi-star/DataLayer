@@ -21,7 +21,7 @@ driver manager:
 	it is used to manage all the drivers.
 	verify whether the driver is matching with the database or not.
 	
-Types of statements:
+***Types of statements:***
 
 1. simple statement:
 		one query will be executed only once
@@ -35,10 +35,15 @@ Types of statements:
 		we can execute group of queries at a time
 > CallableStatement st =con.prepareCall("create a procedure");
 	
-Types of methods:
+***Types of methods:***
 
 1.execute(): it will execute DDL & DML and returns integer value as result
 
 2.executeUpdate(): it will execute DDL & DML and returns boolean values as result
 
 3.executeQuery(): it will execute DQL
+
+***Result Set: ***
+
+it is an interface which executes the result which will be in the form of table (rows & columns).
+> ResultSet rs = statement.executeQuery("select * from emp");
