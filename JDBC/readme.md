@@ -23,15 +23,15 @@ driver manager:
 	
 statements:
 
-1. simple statement
+1. simple statement:
 		one query will be executed only once
 > Statement st = con.createStatement(); 
 
-2. prepared statement
+2. prepared statement:
 		one query will be executed multiple times by giving different dynamic values
 > PreparedStatement st = con.prepareStatement(?, ?);
 
-3. callable statement
+3. callable statement:
 		we can execute group of queries at a time
 > CallableStatement st =con.prepareCall("create a procedure");
 	
