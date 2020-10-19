@@ -36,6 +36,9 @@ Types of statements:
 > CallableStatement st =con.prepareCall("create a procedure");
 	
 Types of methods:
+
 1.execute(): it will execute DDL & DML and returns integer value as result
+
 2.executeUpdate(): it will execute DDL & DML and returns boolean values as result
+
 3.executeQuery(): it will execute DQL
