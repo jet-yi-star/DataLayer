@@ -21,6 +21,18 @@ driver manager:
 	it is used to manage all the drivers.
 	verify whether the driver is matching with the database or not.
 	
+1.loading & registering the driver
+> Class.forName("com.mysql.cj.jdbc.Driver");
+2.connection establishment
+> Connection con=DriverManager.getConnection("Driver URL","username","password");
+
+3.performing DB operations:
+	a.statement and method
+	b.result set
+	
+4.closing the connection
+	
+	
 ***Types of statements:***
 
 1. simple statement:
