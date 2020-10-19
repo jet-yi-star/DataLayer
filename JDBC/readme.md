@@ -28,6 +28,7 @@ driver manager:
 > Connection con=DriverManager.getConnection("Driver URL","username","password");
 
 3.performing DB operations:
+
 	a.statement and method
 	b.result set
 	
