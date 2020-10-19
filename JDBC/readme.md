@@ -43,7 +43,7 @@ driver manager:
 
 3.executeQuery(): it will execute DQL
 
-***Result Set: ***
+***Result Set:***
 
 it is an interface which executes the result which will be in the form of table (rows & columns).
 > ResultSet rs = statement.executeQuery("select * from emp");
