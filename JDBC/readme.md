@@ -23,6 +23,7 @@ driver manager:
 	
 1.loading & registering the driver
 > Class.forName("com.mysql.cj.jdbc.Driver");
+
 2.connection establishment
 > Connection con=DriverManager.getConnection("Driver URL","username","password");
 
